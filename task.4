@@ -1,0 +1,13 @@
+var a = isNaN('11');
+
+Explanation: The isNaN() function checks if a value is NaN (Not-a-Number). When you pass a string to isNaN(), JavaScript tries to convert the string to a number before checking if it’s NaN. In this case, '11' is a string that can be converted to the number 11. Since 11 is a valid number, isNaN('11') will return false.
+
+Result: a will be false.
+
+var a = isNaN(2 - 10);
+
+Explanation: Here, the expression 2 - 10 is evaluated first. 2 - 10 equals -8, which is a number. Since -8 is a valid number, isNaN(2 - 10) will return false.
+
+Result: a will be false.
+
+In both cases, the isNaN() function returns false because the results of the expressions are valid numbers.
